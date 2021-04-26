@@ -1,0 +1,7 @@
+{
+  "name": "webgl_test",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
