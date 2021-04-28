@@ -9,7 +9,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build:android": "ionic build && npx cap copy && npx cap copy android && npx cap open android"
   },
   "private": true,
   "dependencies": {
@@ -19,9 +20,13 @@
     "@angular/platform-browser": "~11.2.0",
     "@angular/platform-browser-dynamic": "~11.2.0",
     "@angular/router": "~11.2.0",
+    "@capacitor/android": "^2.4.7",
     "@capacitor/core": "2.4.7",
     "@ionic/angular": "^5.5.2",
+    "@types/three": "^0.127.1",
+    "cordova-plugin-sensors": "git+https://github.com/fabiorogeriosj/cordova-plugin-sensors.git",
     "rxjs": "~6.6.0",
+    "three": "^0.128.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
